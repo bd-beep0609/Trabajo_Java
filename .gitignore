@@ -1,24 +1,153 @@
-# Compiled class file
+cd ~/Proyectos/Java/Trabajo_Java
+
+cat > .gitignore << 'EOF'
+# ============================================
+# ARCHIVOS DE JAVA COMPILADOS
+# ============================================
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
+*.nar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# ============================================
+# CARPETAS DE COMPILACIÓN
+# ============================================
+target/
+out/
+build/
+bin/
+dist/
+classes/
+generated/
+
+# ============================================
+# ARCHIVOS DE INTELIJ IDEA
+# ============================================
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+.idea/caches/
+.idea/dictionaries/
+.idea/libraries/
+.idea/shelf/
+.idea/sonarlint/
+.idea/vcs.xml
+.idea/modules.xml
+.idea/workspace.xml
+.idea/misc.xml
+
+# ============================================
+# ARCHIVOS DE ECLIPSE
+# ============================================
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+
+# ============================================
+# ARCHIVOS DE NETBEANS
+# ============================================
+nbproject/
+nb-configuration.xml
+build.xml
+manifest.mf
+
+# ============================================
+# ARCHIVOS DE VS CODE
+# ============================================
+.vscode/
+.code-workspace
+
+# ============================================
+# ARCHIVOS DE MAC OS
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# ============================================
+# ARCHIVOS DE WINDOWS
+# ============================================
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.lnk
+
+# ============================================
+# LOGS Y BASURAS
+# ============================================
+*.log
+*.lock
+*.temp
+*.cache
+*.dump
+*.hprof
+*.jfr
+
+# ============================================
+# ARCHIVOS DE RESPALDO
+# ============================================
+*.bak
+*.backup
+*.orig
+*.old
+*.rej
+*.patch
+
+# ============================================
+# ARCHIVOS DE TESTS
+# ============================================
+test-output/
+surefire-reports/
+failsafe-reports/
+*.test
+
+# ============================================
+# ARCHIVOS DE MAVEN
+# ============================================
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/
+
+# ============================================
+# ARCHIVOS DE GRADLE
+# ============================================
+.gradle/
+gradle/
+build/
+!gradle-wrapper.jar
+
+# ============================================
+# ARCHIVOS DE LINUX/WINDOWS (binarios)
+# ============================================
+*.so
+*.dylib
+*.dll
+
+# ============================================
+# ARCHIVOS DE USUARIO
+# ============================================
+*.conf
+*.config
+*.properties.local
+*.xml.local
+EOF
